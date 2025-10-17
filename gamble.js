@@ -28,7 +28,7 @@ function moneyClick() {
 
 
 function gamble() { if (money >= 1n) {
-    if (Math.floor(Math.random() * 3) == 1) {
+    if (Math.floor(Math.random() * 2.5) == 1) {
         money *= 5n;
         gamblestreak += 1;
     } else {
