@@ -1,0 +1,10 @@
+html {
+    font-family: 'Lucida Console', 'Courier New', 'Monaco', monospace;
+    background: rgb(61, 61, 61);
+    color: white;
+}
+* {
+    cursor: url('./cursors/point.png'), auto;
+    transition: opacity .3s;
+    transition: font-size .3s;
+}
